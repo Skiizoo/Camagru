@@ -1,0 +1,115 @@
+.card .form[color="primary"] {
+    text-align: center;
+}
+.card .form {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.card .form .form {
+    padding: 15px;
+}
+.card .form[color="primary"] input, .card .form[color="primary"] textarea {
+    border: 1px solid #f0f0f0;
+}
+.card .form input[type="text"], .card .form input[type="password"], .card .form textarea {
+    outline: none;
+    display: block;
+    width: 80%;
+    font-size: 10px;
+    margin: 5% 10% 5%;
+    padding: 25px 0px 25px 15px;
+    box-sizing: border-box;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    background: #eeeded;
+}
+.card .form[color="primary"] button[type="submit"] {
+    background: #434751;
+    color: #fff;
+}
+.card .form[color="primary"] button[type="submit"]:hover {
+    background: #5f6063;
+}
+.card .form button[type="submit"] {
+    cursor: pointer;
+    width: 30%;
+    border: 0;
+    margin-left: 0 !important;
+    padding: 10px 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    border: 1px solid #1b6d85;
+    color: white;
+    background: #1b6d85;
+}
+.card .form button[type="submit"]:hover {
+    color: #1b6d85;
+    background: white;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.card {
+    background: #fff;
+    padding: 5%;
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, .1);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, .1);
+    margin-top: 20%;
+    text-align: center;
+}
+.card a {
+    color: #42454e;
+}
+.card form {
+    margin-bottom: 25px;
+}
+.has-error .invalid-feedback {
+    color: #a94442;
+}
+.row.checkbox {
+    text-align: left;
+    margin-left: 12%;
+}
+label.btn {
+    text-align: left;
+}
+.checkbox label {
+    font-weight: normal;
+    line-height: 1.42857143;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.res-register {
+    margin-top: 20px;
+}
+span.error {
+    color: indianred;
+}
+span.valid {
+    color: mediumseagreen;
+}

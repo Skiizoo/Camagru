@@ -1,0 +1,114 @@
+body {
+	margin:0;
+}
+/****CONTENT****/
+.products h3 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: gray;
+    margin-top: 30px; 
+}
+/*PRODUCTS*/
+.products ul {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background: whitesmoke;
+    text-align: center;
+}
+.products ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 25px 0 25px;
+}
+figure {
+    margin: 0;
+    padding: 0;
+    height: 524px;
+    position: relative;
+    display: block;
+    overflow: scroll;
+    border: 2px solid #fff;
+}
+figure:hover .caption {
+	opacity: 1;
+	top: 0;
+}
+.caption {
+	color: #1b6d85;
+	-webkit-transition: all .9s ease;
+	-moz-transition: all .9s ease;
+	-o-transition: all .9s ease;
+	-ms-transition: all .9s ease;
+	transition: all .9s ease;
+}
+figure img {
+	-webkit-transition: all 1.5s;
+	-moz-transition: all 1.5s;
+	-o-transition: all 1.5s;
+	-ms-transition: all 1.5s;
+	transition: all 1.5s;
+}
+figure:hover img {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.caption h4 {
+	font-family: 'Open sans';
+	font-weight: 400;
+    font-size: 20px;
+}
+.caption p {
+    font-family: 'Open sans';
+    font-size: 13px;
+}
+figure:hover h4,figure:hover p {
+	left: 0;
+}
+.caption a {
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 4px 10px;
+	text-decoration: none;
+}
+.caption a:hover {
+	color: #4f5856;
+	background: #fff;
+}
+.caption input[type=submit] {
+	color: #FFF;
+	border: solid 1px #CCC;
+	background: #1b6d85;
+}
+figure img {
+    height: 365px;
+    max-width: 450px;
+}
+i.fas.fa-heart, i.far.fa-heart {
+    width: 20px;
+}
+span.likes {
+    color: #4f5856;
+    font-size: small;
+}
+button {
+    background: none;
+    border: none;
+}
+form.like_form {
+    display: inline;
+}
+form.comment_form {
+    margin-bottom: 10px;
+}
+a.a_pagination.current, a.a_pagination:hover {
+    background: #1b6d85;
+    color: white;
+    padding: 5px;
+}
