@@ -38,8 +38,8 @@
             $subject = 'Confirmation d\'inscription';
             $message = 'Bonjour ' . $user['pseudo'] . ',<br><br> Pour confirmer ton inscription, clique sur ce lien : <a href="http://localhost:8008/register?key=' . $user['tokenValidated'] . '">https://camagru/register?key=' . $user['tokenValidated'] . '</a><br><br>A bientôt !';
             $headers = 'Content-type: text/html; charset=utf-8' . "\r\n" .
-                        'From: anthony.amsellem97@gmail.com' . "\r\n" .
-                        'Reply-To: anthony.amsellem97@gmail.com' . "\r\n" .
+                        'From: XXXXXX' . "\r\n" .
+                        'Reply-To: XXXXXX' . "\r\n" .
                         'X-Mailer: PHP/';
             mail($to, $subject, $message, $headers);
             $success = "Compte enregistré. Tu vas recevoir un mail de confirmation";
