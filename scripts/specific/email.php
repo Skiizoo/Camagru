@@ -13,8 +13,8 @@
                 $subject = 'Réinitialisation mot de passe';
                 $message = 'Bonjour ' . $user['pseudo'] . '<br><br>Pour réinitialiser ton mot de passe, clique sur ce lien : <a href="http://localhost:8008/reset_pwd?key=' . $user['tokenLost'] . '">https://camagru/reset_pwd?key=' . $user['tokenLost'] . '</a><br><br>A bientôt !';
                 $headers = 'Content-type: text/html; charset=utf-8' . "\r\n" .
-                'From: anthony.amsellem97@gmail.com' . "\r\n" .
-                'Reply-To: anthony.amsellem97@gmail.com' . "\r\n" .
+                'From: XXXXXX' . "\r\n" .
+                'Reply-To: XXXXXX' . "\r\n" .
                 'X-Mailer: PHP/';
                 mail($to, $subject, $message, $headers);
             }
